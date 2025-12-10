@@ -3,7 +3,7 @@ layout: project
 title: Wrench Design Project
 description: MAE 3270 Final Project
 technologies: [Autodesk Fusion, ANSYS, MATLAB]
-image: /assets/images/radio-machine-cad.jpg
+image: /assets/images/CADiso
 ---
 
 For the final project of MAE 3270: Mechanics of Materials, we had to design a wrench that fulfilled the following requirements:  <br />
@@ -34,3 +34,5 @@ Isotopic view of Wrench cad <br />
 Top view of Wrench cad <br />
 ![CAD Dimensions Side.](/assets/images/CADsideProfile.jpg "CAD Dimensions Side")<br />
 Side view of Wrench cad <br />
+
+We then performed 
