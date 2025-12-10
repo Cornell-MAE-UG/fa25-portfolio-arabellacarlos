@@ -38,62 +38,62 @@ Side view of Wrench cad <br />
 We then performed both hand calculations and FEM analysis using ANSYS to find if our design fulfilled the design requirements.
 
 Our MATLAB code is as follows
-`
-%% Calculating X_s
+```
+    %% Calculating X_s
 
-function results=calculate(L, h, b)
-disp(strcat('L:', num2str(L), ', h:', num2str(h), ', b:', num2str(b)))
-M = 600; % max torque (in-lbf)
-c = 1.0; % distance from center of drive to center of strain gauge
-E = 9.86E6; % Young's modulus (psi)
-nu = 0.333; % Poisson's ratio
-su = 370.E3; % tensile strength use yield or ultimate depending on material (psi)
-KIC = 15.E3; % fracture toughness (psi sqrt(in))
-sfatigue = 115.e3; % fatigue strength from Granta for 10^6 cycles
-k=2;
+    function results=calculate(L, h, b)
+    disp(strcat('L:', num2str(L), ', h:', num2str(h), ', b:', num2str(b)))
+    M = 600; % max torque (in-lbf)
+    c = 1.0; % distance from center of drive to center of strain gauge
+    E = 9.86E6; % Young's modulus (psi)
+    nu = 0.333; % Poisson's ratio
+    su = 370.E3; % tensile strength use yield or ultimate depending on material (psi)
+    KIC = 15.E3; % fracture toughness (psi sqrt(in))
+    sfatigue = 115.e3; % fatigue strength from Granta for 10^6 cycles
+    k=2;
 
-p=M/L;
-s=6*M/(b*h^2);
-s_0=s/10^3;
-X=su/s;
-disp(strcat('Max stress: ', num2str(s_0), 'psi'))
-disp(strcat('X_0: ', num2str(X)));
-disp(strcat('Does X_0 pass?_', num2str(X>=4)))
-
-
-%% Calculating Max Displacement
-I=(b*h^3)/12;
-displacement=(p*L^3)/(3*E*I);
-disp(strcat('Displacement: ', num2str(displacement), ' in'));
-
-%% Calculating strain
-st1=(s/E)*(L-c)/L;
-st2=-st1;
-st=k*(st1-st2)*(10^6)/4; % mV/V
-disp(strcat('Strain: ', num2str(st), ' microstrain'));
-disp(strcat('Output: ', num2str(st/1000), 'mV/V'))
-disp(strcat('Does strain pass?_', num2str(st/1000>=1)))
-
-%%Calculate factor of safety of crack growth
-a = 0.04; %crack depth (in) (0.01 mm)
-p=pi*(a/b)/2;
-F=1.12;
-Sg = 6*M/(b*h^2);
-K = F*Sg*sqrt(pi*a);
-Xk=KIC/K;
-disp(strcat('X_k: ', num2str(Xk)));
-disp(strcat('Does X_k pass?_', num2str(Xk>=2)))
-
-%%Calculate factor of safety of fatigue stress
-Xs=sfatigue*b*h^2/(6*M);
-disp(strcat('X_s: ', num2str(Xs)));
-disp(strcat('Does X_s pass?_', num2str(Xs>=1.5)))
-disp('-----')
+    p=M/L;
+    s=6*M/(b*h^2);
+    s_0=s/10^3;
+    X=su/s;
+    disp(strcat('Max stress: ', num2str(s_0), 'psi'))
+    disp(strcat('X_0: ', num2str(X)));
+    disp(strcat('Does X_0 pass?_', num2str(X>=4)))
 
 
-end
-L=9.0625;
-h=0.8;
-b=0.5;
-calculate(L, h, b)
-`
+    %% Calculating Max Displacement
+    I=(b*h^3)/12;
+    displacement=(p*L^3)/(3*E*I);
+    disp(strcat('Displacement: ', num2str(displacement), ' in'));
+
+    %% Calculating strain
+    st1=(s/E)*(L-c)/L;
+    st2=-st1;
+    st=k*(st1-st2)*(10^6)/4; % mV/V
+    disp(strcat('Strain: ', num2str(st), ' microstrain'));
+    disp(strcat('Output: ', num2str(st/1000), 'mV/V'))
+    disp(strcat('Does strain pass?_', num2str(st/1000>=1)))
+
+    %%Calculate factor of safety of crack growth
+    a = 0.04; %crack depth (in) (0.01 mm)
+    p=pi*(a/b)/2;
+    F=1.12;
+    Sg = 6*M/(b*h^2);
+    K = F*Sg*sqrt(pi*a);
+    Xk=KIC/K;
+    disp(strcat('X_k: ', num2str(Xk)));
+    disp(strcat('Does X_k pass?_', num2str(Xk>=2)))
+
+    %%Calculate factor of safety of fatigue stress
+    Xs=sfatigue*b*h^2/(6*M);
+    disp(strcat('X_s: ', num2str(Xs)));
+    disp(strcat('Does X_s pass?_', num2str(Xs>=1.5)))
+    disp('-----')
+
+
+    end
+    L=9.0625;
+    h=0.8;
+    b=0.5;
+    calculate(L, h, b)
+```
