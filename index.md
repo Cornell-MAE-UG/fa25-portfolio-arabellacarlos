@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name>
+title: Arabella Carlos
 ---
 
 ## About Me
