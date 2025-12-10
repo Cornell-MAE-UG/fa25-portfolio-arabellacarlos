@@ -21,6 +21,44 @@ Baseline design diagram. In inches, L=16, c=1, b=0.5, h=0.75.<br /><br />
 Baseline design drive diagram.<br /><br />
 Additionally, we wanted our wrench to have more material around the drive so that that part of the drive was less prone to deformation. In doing so, the shape of the handle changed in width at sharp corners, so we added fillets to mitigate stress concentrations at those points. We created a design in Fusion 360 with rough dimensions, created a function in MATLAB that would find the required material properties, and filtered materials in Granta to find ones that worked. We then tweaked the CAD and code as needed to narrow down the list of materials we wanted.
 
+```
+function material=findMaterials(L, h, b);
+disp(strcat('L:', num2str(L), ', h:', num2str(h), ', b:', num2str(b)))
+M = 600; % max torque (in-lbf)
+c = 1.0; % distance from center of drive to center of strain gauge
+nu = 0.335; % Poisson's ratio
+k=2;
+
+X=4;
+s=6*M/(b*h^2);
+su = X*s;
+disp(strcat('Min su:  ', num2str(su), 'psi'));
+
+st=1;
+E=k*s*(L-c)*10^3/(2*st*L);
+disp(strcat('Max Youngs mod:  ', num2str(E), 'psi'));
+
+%%Calculate factor of safety of crack growth
+a = 0.04; %crack depth (in) (0.01 mm)
+Xk=2;
+F=1.12;
+Sg = 6*M/(b*h^2);
+K = F*Sg*sqrt(pi*a);
+KIC=Xk*K;
+disp(strcat('KIC min:  ', num2str(KIC)));
+
+%%Calculate factor of safety of fatigue stress
+Xs = 1.5;
+sfatigue=Xs*(6*M)/(b*h^2);
+disp(strcat('sfatigue min:  ', num2str(sfatigue)));
+disp('-----')
+
+
+end
+
+findMaterials(9, 0.8, 0.5);
+```
+
 My partner and I decided to use Aluminum 2424. Although price was not something that we were told to consider, we decided to factor it in to make it more realistic. Aluminum 2424 has the following properties: <br />
     -Young's Modulus: 9.86 Msi <br />
     -Poisson's Ratio: 0.333 <br />
@@ -127,8 +165,7 @@ Arrow denotes a 66.67 lbf force.
 
 We also had multiple meshes with different mesh sizes. Our first mesh size was 0.1875" on the handle and 0.1" on the drive (Mesh 1). Our second mesh size was 0.125" on the handle and 0.06" on the drive (Mesh 2). Our final mesh size was 0.075" on the handle and 0.03" on the drive (Mesh 3).
 
-Our displacement for loading case A mesh size 1 was as follows.
-
+Our displacements for loading case A mesh size 1 was as follows.
 
 These are the strain values experienced at the location of the gauge for meshes 1, 2, and 3 for loading case B.
 ![StrainCoarseMesh](/assets/images/strainCoarseMesh.PNG "StrainCoarseMesh")<br />
