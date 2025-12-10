@@ -157,7 +157,7 @@ Does X_s pass?_1
 We then performed FEM analysis using ANSYS to yield more accurate results. As instructed, we clamped the drive of the wrench around the four larger faces. However, we noticed that there were stress concentrations that came from clamping that part of the drive and not the entire drive, so we had another loading case where the entire drive was clamped.
 
 As you can see in the following image, the maximum stresses occured at the edges of the drive faces that were not clamped. This is due to the sharp corners of the clamped faces being joined with the unclamped section of the drive. If we were to make this wrench, these stress concentrations would not occur because the drive would be continuous and not have these sharp corners.
-[stressZoom](/assets/images/AcoarseMeshStressZoomedIn.png "stressZoom")<br />
+![stressZoom](/assets/images/AcoarseMeshStressZoomedIn.png "stressZoom")<br />
 Stress Concentrations due to Loading Case A <br />
 Due to these ficticious stress concentrations, I have decided to base my analysis on loading case B, with the entire drive clamped rather than just part of it.
 
