@@ -131,7 +131,7 @@ Our displacement for loading case A mesh size 1 was as follows.
 
 
 These are the strain values experienced at the location of the gauge for meshes 1, 2, and 3 for loading case B.
-![StrainCoarseMesh](/assets/images/StrainCoarseMesh.PNG "StrainCoarseMesh")<br />
-![StrainFineMesh1](/assets/images/StrainCoarseMesh.PNG "StrainFineMesh1")<br />
-![StrainFineMesh2](/assets/images/StrainCoarseMesh.PNG "StrainFineMesh2")<br />
+![StrainCoarseMesh](/assets/images/strainCoarseMesh.PNG "StrainCoarseMesh")<br />
+![StrainFineMesh1](/assets/images/strainFineMesh1.PNG "StrainFineMesh1")<br />
+![StrainFineMesh2](/assets/images/strainFineMesh2.PNG "StrainFineMesh2")<br />
 
