@@ -26,3 +26,11 @@ My partner and I decided to use Aluminum 2424. Although price was not something 
     -Poisson's Ratio: 0.333 <br />
 
  <br />
+
+This is our design in CAD with key dimensions shown.
+![CAD Isotropic View.](/assets/images/CADiso.png "CAD Isotropic View")<br />
+Isotopic view of Wrench cad <br />
+![CAD Dimensions Top.](/assets/images/CADtopProfile.png "CAD Dimensions Top")<br />
+Top view of Wrench cad <br />
+![CAD Dimensions Side.](/assets/images/CADsideProfile.png "CAD Dimensions Side")<br />
+Side view of Wrench cad <br />
