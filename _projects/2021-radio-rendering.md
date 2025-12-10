@@ -1,18 +1,25 @@
 ---
 layout: project
-title: Radio CAD Rendering
-description: Advanced CAD Project
-technologies: [Autodesk Fusion]
+title: Wrench Design Project
+description: MAE 3270 Final Project
+technologies: [Autodesk Fusion, ANSYS, MATLAB]
 image: /assets/images/radio-machine-cad.jpg
 ---
 
-For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
+For the final project of MAE 3270: Mechanics of Materials, we had to design a wrench that fulfilled the following requirements:
+    -Attain at least 1.0 mV/V output at the rated torque of 600 in-lbf.
+    -safety factor of 4 against yield
+    -safety factor of 2 for crack growth from an assumed crack of depth 0.04 inches (1 mm).
+    -fatigue stress safety factor of 1.5
+    -material must be a steel, aluminum or titanium alloy
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+The class was given a base design to work off of that fulfilled all requirements besides the required voltage output. Below is the baseline design given to us.
 
-![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
+![Baseline design diagram. In inches, L=16, c=1, b=0.5, h=0.75.]({{ "/assets/images/baseDesignDiagram.png" | relative_url }}){: .inline-image-r style="width: 200px"}
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+![Baseline design drive diagram.]({{ "/assets/images/baseDesignDriveDiagram.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+
+My partner and I 
 
 Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
 
