@@ -167,8 +167,8 @@ We also had multiple meshes with different mesh sizes. Our first mesh size was 0
 
 Our displacements for loading case A mesh size 1 was as follows.
 ![DeformationCoarseMesh](/assets/images/CoarseMeshDeformations.png "DeformationCoarseMesh")<br />
-![DeformationFineMesh1](/assets/images/FineMesh1Desormation.png "DeformationFineMesh1")<br />
-![DeformationFineMesh2](/assets/images/FineMesh2Desormation.png "DeformationFineMesh2")<br />
+![DeformationFineMesh1](/assets/images/FineMesh1Deformation.png "DeformationFineMesh1")<br />
+![DeformationFineMesh2](/assets/images/FineMesh2Deformation.png "DeformationFineMesh2")<br />
 
 These are the strain values experienced at the location of the gauge for meshes 1, 2, and 3 for loading case B.
 ![StrainCoarseMesh](/assets/images/strainCoarseMesh.PNG "StrainCoarseMesh")<br />
