@@ -124,3 +124,14 @@ Loading Case A <br />
 Loading Case B <br />
 
 Arrow denotes a 66.67 lbf force.
+
+We also had multiple meshes with different mesh sizes. Our first mesh size was 0.1875" on the handle and 0.1" on the drive (Mesh 1). Our second mesh size was 0.125" on the handle and 0.06" on the drive (Mesh 2). Our final mesh size was 0.075" on the handle and 0.03" on the drive (Mesh 3).
+
+Our displacement for loading case A mesh size 1 was as follows.
+
+
+These are the strain values experienced at the location of the gauge for meshes 1, 2, and 3 for loading case B.
+![StrainCoarseMesh](/assets/images/StrainCoarseMesh.PNG "StrainCoarseMesh")<br />
+![StrainFineMesh1](/assets/images/StrainCoarseMesh.PNG "StrainFineMesh1")<br />
+![StrainFineMesh2](/assets/images/StrainCoarseMesh.PNG "StrainFineMesh2")<br />
+
