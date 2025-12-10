@@ -35,7 +35,7 @@ Top view of Wrench cad <br />
 ![CAD Dimensions Side.](/assets/images/CADsideProfile.jpg "CAD Dimensions Side")<br />
 Side view of Wrench cad <br />
 
-We then performed both hand calculations and FEM analysis using ANSYS to find if our design fulfilled the design requirements.
+We then hand calculations to find if our design fulfilled the design requirements.
 
 Our MATLAB code is as follows
 ```
@@ -116,3 +116,11 @@ Does X_s pass?_1
 -----
 ```
 
+We then performed FEM analysis using ANSYS to yield more accurate results. As instructed, we clamped the drive of the wrench around the four larger faces. However, we noticed that there were stress concentrations that came from clamping that part of the drive and not the entire drive, so we had another loading case where the entire drive was clamped. 
+
+![Loading Case A](/assets/images/caseALoading.jpg "Loading Case A")<br />
+Loading Case A <br />
+![Loading Case B](/assets/images/caseBLoading.jpg "Loading Case B")<br />
+Loading Case B <br />
+
+Arrow denotes a 66.67 lbf force.
