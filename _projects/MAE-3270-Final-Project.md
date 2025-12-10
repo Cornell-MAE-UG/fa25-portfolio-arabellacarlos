@@ -182,3 +182,5 @@ These are the strain values experienced at the location of the gauge for meshes 
 ![StrainFineMesh1](/assets/images/strainFineMesh1.PNG "StrainFineMesh1")<br />
 ![StrainFineMesh2](/assets/images/strainFineMesh2.PNG "StrainFineMesh2")<br />
 
+As we can see with the finest mesh size, the value of the voltage output due to strain would be 
+

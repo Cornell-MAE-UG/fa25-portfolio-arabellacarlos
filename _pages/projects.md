@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Arabella Carlos - Portfolio
-permalink: /projects/
+title: Portfolio
+permalink: /fa25-portfolio-arabellacarlos/projects/
 ---
 
 <div class="gallery-container">
