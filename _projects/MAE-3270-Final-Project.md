@@ -97,3 +97,22 @@ Our MATLAB code is as follows
     b=0.5;
     calculate(L, h, b)
 ```
+
+The results we got from this are as follows:
+```
+>> MAEFinalHW
+L:9.0625, h:0.8, b:0.5
+Max stress:11.25psi
+X_0:32.8889
+Does X_0 pass?_1
+Displacement:0.078089 in
+Strain:1015.0731 microstrain
+Output:1.0151mV/V
+Does strain pass?_1
+X_k:3.3583
+Does X_k pass?_1
+X_s:10.2222
+Does X_s pass?_1
+-----
+```
+
