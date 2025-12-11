@@ -178,9 +178,12 @@ Our displacements for loading case A mesh size 1 was as follows.
 
 
 These are the strain values experienced at the location of the gauge for meshes 1, 2, and 3 for loading case B.
-![StrainCoarseMesh]({{ "/assets/images/strainCoarseMesh.PNG "StrainCoarseMesh")<br />
-![StrainFineMesh1]({{ "/assets/images/strainFineMesh1.PNG "StrainFineMesh1")<br />
-![StrainFineMesh2]({{ "/assets/images/strainFineMesh2.PNG "StrainFineMesh2")<br />
+![StrainCoarseMesh]({{ "/assets/images/strainCoarseMesh.PNG" | relative_url }})<br />
+![StrainFineMesh1]({{ "/assets/images/strainFineMesh1.PNG" | relative_url }})<br />
+![StrainFineMesh2]({{ "/assets/images/strainFineMesh2.PNG" | relative_url }})<br />
 
 As we can see with the finest mesh size, the value of the voltage output due to strain would be 
 
+This is the strain gauge chosen.
+https://www.amazon.com/Taidacent-Wheatstone-Rosette-Resistance-BF1K-3HA/dp/B0BN122ZWV/ref=sr_1_9?dib=eyJ2IjoiMSJ9.uVgGEnL-D-rVlzK97OTRFa1syWQS-gY4IQh2sXEdv9LJ5lOCt6mbH34-50C1n_uqrHklUwp73ajgsHjhVBncSL4MnUGN-OyFX5jJCvIiQ0VyDBskxyQ2DZVZVyLyMIGRWLYcQ1VeKLLvr92wKfmflRrBCIryO5trgkqUZDFYzQkgHlWdarbNd2zSDX49DVUm2ThbdK25oiT6Lig0fzWflR3oEqBUCAg_MSOGAVoI3blYJwczC8jRsc9vcaY7G5EH4_iWtEycQ6r2fHyr-X83W2y3PldMylf3TqhiPFRzxfs.hDqGyXp3voTy_jqIXSojPf_ebeea7jDIeR23Lo5JDl8&dib_tag=se&keywords=Wheatstone%2BBridge&qid=1765419799&sr=8-9&th=1
+This gauge both fits physically and can withstand the voltage.
