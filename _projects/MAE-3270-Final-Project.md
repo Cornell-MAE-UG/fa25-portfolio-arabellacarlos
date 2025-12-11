@@ -199,4 +199,4 @@ This gauge  fits physically on the gauge as it is 8.4 mm by 5.5 mm. With this ga
 The summaries for cases 1, 2, and 3 of the strains at the locations are as follows.<br />
 ![summary1]({{ "/assets/images/summary1.png" | relative_url }})<br />
 ![summary2]({{ "/assets/images/summary2.png" | relative_url }})<br />
-![summary3]({{ "/assets/images/summary3.png" | relative_url }})ss<br />
+![summary3]({{ "/assets/images/summary3.png" | relative_url }})<br />
