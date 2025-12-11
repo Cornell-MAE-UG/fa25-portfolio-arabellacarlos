@@ -161,7 +161,7 @@ Loading Case A <br />
 ![Loading Case B]({{ "/assets/images/caseBLoading.jpg "Loading Case B" | relative_url }})<br />
 Loading Case B <br />
 
-Arrow denotes a 66.67 lbf force.<br /><br />
+Arrow denotes a 66.67 lbf force. At the point of application, this corresponds to a 600 lbf•in moment.<br /><br />
 
 As you can see in the following image, the maximum stresses occured at the edges of the drive faces that were not clamped. This is due to the sharp corners of the clamped faces being joined with the unclamped section of the drive. If we were to make this wrench, these stress concentrations would not occur because the drive would be continuous and not have these sharp corners.
 ![stressZoom]({{ "/assets/images/AcoarseMeshStressZoomedIn.png" | relative_url }})<br />
