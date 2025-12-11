@@ -195,3 +195,8 @@ These are the maximum normal stresses of the wrench for mesh 1 and loading case 
 This is the strain gauge chosen. <br />
 [Strain Gauge](https://www.dwyeromega.com/en-us/half-or-full-bridge-strain-gauges-with-transducer-quality/p/SGT-Linear-Diaphragm?srsltid=AfmBOooNF24K4vZrWW_KBEC9JeWZgKaqc7rdy4Qq1vtcFYGj_xBka5KmHbQ) <br />
 This gauge  fits physically on the gauge as it is 8.4 mm by 5.5 mm. With this gauge, we get an output of 1.0151 mV/V at 600 in•lbs using the strain calculated by hand and 1.0794 mV/V using the strain found through FEM. This gauge is a half-bridge wheatstone circuit, and since it is a metal foil, the gauge factor is roughly 2. 
+
+The summaries for cases 1, 2, and 3 of the strains at the locations are as follows.
+![summary1]({{ "/assets/images/summary1.png" | relative_url }})
+![summary2]({{ "/assets/images/summary2.png" | relative_url }})
+![summary3]({{ "/assets/images/summary3.png" | relative_url }})ss
