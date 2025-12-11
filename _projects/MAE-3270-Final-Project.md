@@ -172,7 +172,9 @@ We also had multiple meshes with different mesh sizes. Our first mesh size was 0
 
 Our displacements for loading case A mesh size 1 was as follows.
 ![DeformationCoarseMesh]({{ "/assets/images/CoarseMeshDeformations.png" | relative_url }})<br />
+Our displacements for loading case A mesh size 2 was as follows.
 ![DeformationFineMesh1]({{ "/assets/images/FineMesh1Deformation.png" | relative_url }})<br />
+Our displacements for loading case A mesh size 3 was as follows.
 ![DeformationFineMesh2]({{ "/assets/images/FineMesh2Deformation.png" | relative_url }})<br />
 
 
