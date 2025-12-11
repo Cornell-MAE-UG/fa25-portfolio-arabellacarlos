@@ -17,7 +17,7 @@ The class was given a base design to work off of that fulfilled all requirements
 
 ![Baseline design diagram. In inches, L=16, c=1, b=0.5, h=0.75.]({{ "/assets/images/baseDesignDiagram.png" | relative_url }})
 Baseline design diagram. In inches, L=16, c=1, b=0.5, h=0.75.<br /><br />
-![Baseline design drive diagram.](/assets/images/baseDesignDriveDiagram.png "Baseline design drive diagram.")<br />
+![Baseline design drive diagram.]({{ "/assets/images/baseDesignDriveDiagram.png" | relative_url }})<br />
 Baseline design drive diagram.<br /><br />
 Additionally, we wanted our wrench to have more material around the drive so that that part of the drive was less prone to deformation. In doing so, the shape of the handle changed in width at sharp corners, so we added fillets to mitigate stress concentrations at those points. We created a design in Fusion 360 with rough dimensions, created a function in MATLAB that would find the required material properties, and filtered materials in Granta to find ones that worked. We then tweaked the CAD and code as needed to narrow down the list of materials we wanted.
 
@@ -66,11 +66,11 @@ My partner and I decided to use Aluminum 2424. Although price was not something 
  <br />
 
 This is our design in CAD with key dimensions shown.
-![CAD Isotropic View.](/assets/images/CADiso.png "CAD Isotropic View")<br />
+![CAD Isotropic View.]({{ "/assets/images/CADiso.png "CAD Isotropic View" | relative_url }})<br />
 Isotopic view of Wrench cad <br />
-![CAD Dimensions Top.](/assets/images/CADtopProfile.jpg "CAD Dimensions Top")<br />
+![CAD Dimensions Top.]({{ "/assets/images/CADtopProfile.jpg "CAD Dimensions Top" | relative_url }})<br />
 Top view of Wrench cad <br />
-![CAD Dimensions Side.](/assets/images/CADsideProfile.jpg "CAD Dimensions Side")<br />
+![CAD Dimensions Side.]({{ "/assets/images/CADsideProfile.jpg "CAD Dimensions Side" | relative_url }})<br />
 Side view of Wrench cad <br />
 
 We then hand calculations to find if our design fulfilled the design requirements.
@@ -156,31 +156,31 @@ Does X_s pass?_1
 
 We then performed FEM analysis using ANSYS to yield more accurate results. As instructed, we clamped the drive of the wrench around the four larger faces. However, we noticed that there were stress concentrations that came from clamping that part of the drive and not the entire drive, so we had another loading case where the entire drive was clamped.
 
-![Loading Case A](/assets/images/caseALoading.jpg "Loading Case A")<br />
+![Loading Case A]({{ "/assets/images/caseALoading.jpg "Loading Case A" | relative_url }})<br />
 Loading Case A <br />
-![Loading Case B](/assets/images/caseBLoading.jpg "Loading Case B")<br />
+![Loading Case B]({{ "/assets/images/caseBLoading.jpg "Loading Case B" | relative_url }})<br />
 Loading Case B <br />
 
 Arrow denotes a 66.67 lbf force.<br /><br />
 
 As you can see in the following image, the maximum stresses occured at the edges of the drive faces that were not clamped. This is due to the sharp corners of the clamped faces being joined with the unclamped section of the drive. If we were to make this wrench, these stress concentrations would not occur because the drive would be continuous and not have these sharp corners.
-![stressZoom](/assets/images/AcoarseMeshStressZoomedIn.png "stressZoom")<br />
+![stressZoom]({{ "/assets/images/AcoarseMeshStressZoomedIn.png" | relative_url }})<br />
 Stress Concentrations due to Loading Case A <br />
 Due to these ficticious stress concentrations, I have decided to base my analysis on loading case B, with the entire drive clamped rather than just part of it.
 
 We also had multiple meshes with different mesh sizes. Our first mesh size was 0.1875" on the handle and 0.1" on the drive (Mesh 1). Our second mesh size was 0.125" on the handle and 0.06" on the drive (Mesh 2). Our final mesh size was 0.075" on the handle and 0.03" on the drive (Mesh 3).
 
 Our displacements for loading case A mesh size 1 was as follows.
-![DeformationCoarseMesh](/assets/images/CoarseMeshDeformations.png "DeformationCoarseMesh")<br />
-![DeformationFineMesh1](/assets/images/FineMesh1Deformation.png "DeformationFineMesh1")<br />
-![DeformationFineMesh2](/assets/images/FineMesh2Deformation.png "DeformationFineMesh2")<br />
+![DeformationCoarseMesh]({{ "/assets/images/CoarseMeshDeformations.png" | relative_url }})<br />
+![DeformationFineMesh1]({{ "/assets/images/FineMesh1Deformation.png" | relative_url }})<br />
+![DeformationFineMesh2]({{ "/assets/images/FineMesh2Deformation.png" | relative_url }})<br />
 
 
 
 These are the strain values experienced at the location of the gauge for meshes 1, 2, and 3 for loading case B.
-![StrainCoarseMesh](/assets/images/strainCoarseMesh.PNG "StrainCoarseMesh")<br />
-![StrainFineMesh1](/assets/images/strainFineMesh1.PNG "StrainFineMesh1")<br />
-![StrainFineMesh2](/assets/images/strainFineMesh2.PNG "StrainFineMesh2")<br />
+![StrainCoarseMesh]({{ "/assets/images/strainCoarseMesh.PNG "StrainCoarseMesh")<br />
+![StrainFineMesh1]({{ "/assets/images/strainFineMesh1.PNG "StrainFineMesh1")<br />
+![StrainFineMesh2]({{ "/assets/images/strainFineMesh2.PNG "StrainFineMesh2")<br />
 
 As we can see with the finest mesh size, the value of the voltage output due to strain would be 
 
