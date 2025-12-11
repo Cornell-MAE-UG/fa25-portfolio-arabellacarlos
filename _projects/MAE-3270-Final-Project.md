@@ -17,7 +17,7 @@ The class was given a base design to work off of that fulfilled all requirements
 
 ![Baseline design diagram. In inches, L=16, c=1, b=0.5, h=0.75.]({{ "/assets/images/baseDesignDiagram.png" | relative_url }})
 Baseline design diagram. In inches, L=16, c=1, b=0.5, h=0.75.<br /><br />
-![Baseline design drive diagram.]({{ "/assets/images/baseDesignDriveDiagram.png" | relative_url }})<br />
+![Baseline design drive diagram.]({{ "/assets/images/baseDesignDriveDiagram.png" | relative_url }})
 Baseline design drive diagram.<br /><br />
 Additionally, we wanted our wrench to have more material around the drive so that that part of the drive was less prone to deformation. In doing so, the shape of the handle changed in width at sharp corners, so we added fillets to mitigate stress concentrations at those points. We created a design in Fusion 360 with rough dimensions, created a function in MATLAB that would find the required material properties, and filtered materials in Granta to find ones that worked. We then tweaked the CAD and code as needed to narrow down the list of materials we wanted.
 
