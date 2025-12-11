@@ -15,7 +15,7 @@ For the final project of MAE 3270: Mechanics of Materials, we had to design a wr
  <br />
 The class was given a base design to work off of that fulfilled all requirements besides the required voltage output. Below is the baseline design given to us.
 
-![Baseline design diagram. In inches, L=16, c=1, b=0.5, h=0.75.](/assets/images/baseDesignDiagram.png "Baseline design diagram. In inches, L=16, c=1, b=0.5, h=0.75." )
+![Baseline design diagram. In inches, L=16, c=1, b=0.5, h=0.75.]({{ "/assets/images/baseDesignDiagram.png" | relative_url | }})
 Baseline design diagram. In inches, L=16, c=1, b=0.5, h=0.75.<br /><br />
 ![Baseline design drive diagram.](/assets/images/baseDesignDriveDiagram.png "Baseline design drive diagram.")<br />
 Baseline design drive diagram.<br /><br />
