@@ -1,0 +1,21 @@
+---
+layout: project
+title: Heat Exchanger Analysis
+description: ENGRD 2210
+technologies: [Autodesk Fusion, MATLAB]
+image: /assets/images/thermoDiagram.jpeg
+---
+
+For this thermodynamics project, we were tasked with analyzing a thermodynamic device in depth. I chose to analyze a heat exchanger presented in a thermodynamics lab. We were given the following set up:
+![System Diagram.]({{ "/assets/images/thermoDiagram.jpeg" | relative_url }})
+
+The components of the system were
+    -Hot reservoir
+    -Cold reservoir
+    -Heat exchanger
+    -Outlet 1
+    -Outlet 2
+
+My group decided to explore the differences between running the heat exhanger in parallel vs. running the heat exhanger in counterflow. 
+![Counterflow vs. parallel flow.]({{ "/assets/images/thermoParallelCounterflow.jpeg" | relative_url }})
+

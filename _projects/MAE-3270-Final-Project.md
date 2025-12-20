@@ -3,7 +3,7 @@ layout: project
 title: Wrench Design Project
 description: MAE 3270 Final Project
 technologies: [Autodesk Fusion, ANSYS, MATLAB]
-image: /assets/images/CADiso
+image: /assets/images/CADiso.png
 ---
 
 For the final project of MAE 3270: Mechanics of Materials, we had to design a wrench that fulfilled the following requirements:  <br />
