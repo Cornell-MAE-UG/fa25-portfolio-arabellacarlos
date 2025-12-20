@@ -8,7 +8,7 @@ image: /assets/images/thermoDiagram.jpeg
 
 For this thermodynamics project, we were tasked with analyzing a thermodynamic device in depth. I chose to analyze a heat exchanger presented in a thermodynamics lab. We were given the following set up:
 
-![System Diagram.]({{ "/assets/images/thermoDiagram.jpeg "System Diagram" | relative_url }})<br />
+![System Diagram.]({{ "/assets/images/thermoDiagram.jpeg" | relative_url }})<br />
 
 
 The components of the system were
@@ -24,7 +24,7 @@ To set up the reservoirs, we had to let the water in the hot reservoir heat up u
 
 My group decided to explore the differences between running the heat exhanger in parallel vs. running the heat exhanger in counterflow. 
 
-![Counterflow vs. Parallel Flow.]({{ "/assets/images/thermoParallelCounterflow.jpeg "Counterflow vs. Parallel Flow" | relative_url }})<br />
+![Counterflow vs. Parallel Flow.]({{ "/assets/images/thermoParallelCounterflow.jpeg" | relative_url }})<br />
 
 To set up parallel flow, we connected the tubes from the reservoirs to ports one and four. For couterflow, we connected the tubes from the reservoirs to ports 1 and 3.
 
@@ -47,11 +47,11 @@ For parallel flow, there are three systems that can be analyzed: the heat exchan
 ![Parallel Diagram 1.]({{ "/assets/images/parallelFullDiagram.jpeg "Parallel Diagram 1" | relative_url }})<br />
 All systems <br />
 
-![Parallel Diagram 2.]({{ "/assets/images/parallelFullDiagram2.jpeg "Parallel Diagram 2" | relative_url }})<br />
+![Parallel Diagram 2.]({{ "/assets/images/parallelFullDiagram2.jpeg" | relative_url }})<br />
 Heat Exchanger as  whole <br />
 
-![Parallel 1 Diagram.]({{ "/assets/images/parallel1Diagram.jpeg "Parallel 1 Diagram" | relative_url }})<br />
+![Parallel 1 Diagram.]({{ "/assets/images/parallel1Diagram.jpeg" | relative_url }})<br />
 Tube 1 <br />
 
-![Parallel 2 Diagram.]({{ "/assets/images/parallel2Diagram.jpeg "Parallel 2 Diagram" | relative_url }})<br />
+![Parallel 2 Diagram.]({{ "/assets/images/parallel2Diagram.jpeg" | relative_url }})<br />
 Tube 2 <br />
