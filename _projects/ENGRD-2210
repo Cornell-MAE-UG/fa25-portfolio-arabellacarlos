@@ -42,30 +42,31 @@ Counterflow
     -Blue liquid inlet: 6.5°C
     -Blue liquid outlet: 26.0°
 
-For parallel flow, there are three systems that can be analyzed: the heat exchanger as a whole, tube 1 in the heat exchanger, and tube 2 in the heat exchanger.
+For parallel flow, there are three systems that can be analyzed: the heat exchanger as a whole, tube 1 in the heat exchanger, and tube 2 in the heat exchanger. 
 
 ![Parallel Diagram 1.]({{ "/assets/images/parallelFullDiagram.jpeg "Parallel Diagram 1" | relative_url }})<br />
-All systems <br />
+All systems CV diagram <br />
 
 ![Parallel Diagram 2.]({{ "/assets/images/parallelFullDiagram2.jpeg" | relative_url }})<br />
-Heat Exchanger as  whole <br />
+Heat Exchanger CV diagram <br />
 
 ![Parallel 1 Diagram.]({{ "/assets/images/parallel1Diagram.jpeg" | relative_url }})<br />
-Tube 1 <br />
+Tube 1 CV diagram<br />
 
 ![Parallel 2 Diagram.]({{ "/assets/images/parallel2Diagram.jpeg" | relative_url }})<br />
-Tube 2 <br />
+Tube 2 CV diagram<br />
 
 For counterflow, there also are three systems that can be analyzed: the heat exchanger as a whole, tube 1 in the heat exchanger, and tube 2 in the heat exchanger.
 
 ![counterflow Diagram 1.]({{ "/assets/images/counterflowFull1.jpeg "Parallel Diagram 1" | relative_url }})<br />
-All systems <br />
+All systems CV diagram<br />
 
 ![counterflow Diagram 2.]({{ "/assets/images/counterflowFull2.jpeg" | relative_url }})<br />
-Heat Exchanger as  whole <br />
+Heat Exchanger CV diagram<br />
 
 ![counterflow 1 Diagram.]({{ "/assets/images/counterflow1.jpeg" | relative_url }})<br />
-Tube 1 <br />
+Tube 1 CV diagram<br />
 
 ![counterflow 2 Diagram.]({{ "/assets/images/counterflow2.jpeg" | relative_url }})<br />
-Tube 2 <br />
+Tube 2 CV diagram<br />
+<br />
