@@ -55,3 +55,17 @@ Tube 1 <br />
 
 ![Parallel 2 Diagram.]({{ "/assets/images/parallel2Diagram.jpeg" | relative_url }})<br />
 Tube 2 <br />
+
+For counterflow, there also are three systems that can be analyzed: the heat exchanger as a whole, tube 1 in the heat exchanger, and tube 2 in the heat exchanger.
+
+![counterflow Diagram 1.]({{ "/assets/images/counterflowFull1.jpeg "Parallel Diagram 1" | relative_url }})<br />
+All systems <br />
+
+![counterflow Diagram 2.]({{ "/assets/images/counterflowFull2.jpeg" | relative_url }})<br />
+Heat Exchanger as  whole <br />
+
+![counterflow 1 Diagram.]({{ "/assets/images/counterflow1.jpeg" | relative_url }})<br />
+Tube 1 <br />
+
+![counterflow 2 Diagram.]({{ "/assets/images/counterflow2.jpeg" | relative_url }})<br />
+Tube 2 <br />
