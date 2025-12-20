@@ -2,7 +2,7 @@
 layout: project
 title: Heat Exchanger Analysis
 description: ENGRD 2210
-technologies: [Autodesk Fusion, MATLAB]
+technologies: []
 image: /assets/images/thermoDiagram.jpeg
 ---
 
@@ -42,4 +42,16 @@ Counterflow
     -Blue liquid inlet: 6.5°C
     -Blue liquid outlet: 26.0°
 
+For parallel flow, there are three systems that can be analyzed: the heat exchanger as a whole, tube 1 in the heat exchanger, and tube 2 in the heat exchanger.
 
+![Parallel Diagram 1.]({{ "/assets/images/parallelFullDiagram.jpeg "Parallel Diagram 1" | relative_url }})<br />
+All systems <br />
+
+![Parallel Diagram 2.]({{ "/assets/images/parallelFullDiagram2.jpeg "Parallel Diagram 2" | relative_url }})<br />
+Heat Exchanger as  whole <br />
+
+![Parallel 1 Diagram.]({{ "/assets/images/parallel1Diagram.jpeg "Parallel 1 Diagram" | relative_url }})<br />
+Tube 1 <br />
+
+![Parallel 2 Diagram.]({{ "/assets/images/parallel2Diagram.jpeg "Parallel 2 Diagram" | relative_url }})<br />
+Tube 2 <br />
