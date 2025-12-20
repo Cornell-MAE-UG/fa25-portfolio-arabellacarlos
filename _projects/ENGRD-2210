@@ -8,7 +8,7 @@ image: /assets/images/thermoDiagram.jpeg
 
 For this thermodynamics project, we were tasked with analyzing a thermodynamic device in depth. I chose to analyze a heat exchanger presented in a thermodynamics lab. We were given the following set up:
 
-![System Diagram.]({{ "/assets/images/thermoDiagram.jpeg" | relative_url }})<br />
+![System Diagram]({{ "/assets/images/thermoDiagram.jpeg" | relative_url }})<br />
 
 
 The components of the system were
@@ -24,7 +24,7 @@ To set up the reservoirs, we had to let the water in the hot reservoir heat up u
 
 My group decided to explore the differences between running the heat exhanger in parallel vs. running the heat exhanger in counterflow. 
 
-![Counterflow vs. Parallel Flow.]({{ "/assets/images/thermoParallelCounterflow.jpeg" | relative_url }})<br />
+![Counterflow vs. Parallel Flow]({{ "/assets/images/thermoParallelCounterflow.jpeg" | relative_url }})<br />
 
 To set up parallel flow, we connected the tubes from the reservoirs to ports one and four. For couterflow, we connected the tubes from the reservoirs to ports 1 and 3.
 
@@ -44,30 +44,30 @@ Counterflow
 
 For parallel flow, there are three systems that can be analyzed: the heat exchanger as a whole, tube 1 in the heat exchanger, and tube 2 in the heat exchanger. 
 
-![Parallel Diagram 1.]({{ "/assets/images/parallelFullDiagram.jpeg" | relative_url }})<br />
+![Parallel Diagram 1]({{ "/assets/images/parallelFullDiagram.jpeg" | relative_url }})<br />
 All systems CV diagram <br />
 
-![Parallel Diagram 2.]({{ "/assets/images/parallelFullDiagram2.jpeg" | relative_url }})<br />
+![Parallel Diagram 2]({{ "/assets/images/parallelFullDiagram2.jpeg" | relative_url }})<br />
 Heat Exchanger CV diagram <br />
 
-![Parallel 1 Diagram.]({{ "/assets/images/parallel1Diagram.jpeg" | relative_url }})<br />
+![Parallel 1 Diagram]({{ "/assets/images/parallel1Diagram.jpeg" | relative_url }})<br />
 Tube 1 CV diagram<br />
 
-![Parallel 2 Diagram.]({{ "/assets/images/parallel2Diagram.jpeg" | relative_url }})<br />
+![Parallel 2 Diagram]({{ "/assets/images/parallel2Diagram.jpeg" | relative_url }})<br />
 Tube 2 CV diagram<br />
 
 For counterflow, there also are three systems that can be analyzed: the heat exchanger as a whole, tube 1 in the heat exchanger, and tube 2 in the heat exchanger.
 
-![counterflow Diagram 1.]({{ "/assets/images/counterflowFull1.jpeg" | relative_url }})<br />
+![counterflow Diagram 1]({{ "/assets/images/counterflowFull1.jpeg" | relative_url }})<br />
 All systems CV diagram<br />
 
-![counterflow Diagram 2.]({{ "/assets/images/counterflowFull2.jpeg" | relative_url }})<br />
+![counterflow Diagram 2]({{ "/assets/images/counterflowFull2.jpeg" | relative_url }})<br />
 Heat Exchanger CV diagram<br />
 
-![counterflow 1 Diagram.]({{ "/assets/images/counterflow1.jpeg" | relative_url }})<br />
+![counterflow 1 Diagram]({{ "/assets/images/counterflow1.jpeg" | relative_url }})<br />
 Tube 1 CV diagram<br />
 
-![counterflow 2 Diagram.]({{ "/assets/images/counterflow2.jpeg" | relative_url }})<br />
+![counterflow 2 Diagram]({{ "/assets/images/counterflow2.jpeg" | relative_url }})<br />
 Tube 2 CV diagram<br />
 <br />
 
