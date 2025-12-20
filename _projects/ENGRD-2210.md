@@ -81,7 +81,19 @@ Tube 2 CV diagram<br />
 <br />
 
 The two pumps that moved the liquid through the system operated at the same rate, so the mass flow rate in the system was constant. 
+![mass balance]({{ "/assets/images/massBalance.jpeg" | relative_url }})
 <br />
+<br />
+We can analyze the system to find the heat flow between the two systems using an energy balance.
+![energy balance]({{ "/assets/images/energyBalanceEquation.jpeg" | relative_url }})
+<br />
+As a heat exchanger does no work on its surroundings, we can set the work term equal to zero. We also can ignore the changes in kinetic and potential energy, as these are negligible for a heat exchanger. Given the mass balance performed earlier, we can set the mass flow rate into the system equal to the mass flow rater out of the system. As the liquid in the system was water at atmospheric pressure and from just under 5°C to 40.1°C, we can treat the water as an incompressible substance. Then, we can use the equation that sets the change of energy of the system equal to the product of specific heat capacity and the difference in temperatures. We also can make the assumption that the system is at steady state to make the calculation easier. Combining all of this, we can solve for the heat flow in both systems.
+
+![parallel balance]({{ "/assets/images/workForParallel.jpeg" | relative_url }})
+<br />
+![counterflow balance]({{ "/assets/images/workForCounterflow.jpeg" | relative_url }})
 <br />
 
-Several changes can be made to the system to make it more efficient. To make it easier to identify which liquid was which, the tubing was clear so that the color of the liquid inside could be seen. This let light pass through the tubing, which could have possibly added more heat into the system. Additionally, I touched the tubing and the heat exchanger during the lab and felt that both the tubing and the tubing for the hot reservoir water got warm, meaning that there was heat flow from the liquid to the heat exchanger and to the tubing. In order to avoid this and make the heat exchanger perform more reliably (without heat loss to surroundings), I would make the heat exchanger and tubing more insulated.
+Interestingly, the heats are not equal within each system are not equal, meaning that there is additional heat flow into the system. This might come from heat flow into the system during the heat exchange portion, or heat flow from the tubing before or after.
+
+Several changes can be made to the system to make it more effective. To make it easier to identify which liquid was which, the tubing was clear so that the color of the liquid inside could be seen. This let light pass through the tubing, which could have possibly added more heat into the system. Additionally, I touched the tubing and the heat exchanger during the lab and felt that both the tubing and the tubing for the hot reservoir water got warm, meaning that there was heat flow from the liquid to the heat exchanger and to the tubing. In order to avoid this and make the heat exchanger perform more reliably (without heat loss to surroundings), I would make the heat exchanger and tubing more insulated.
