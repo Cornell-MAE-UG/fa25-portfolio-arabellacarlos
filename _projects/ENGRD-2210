@@ -7,7 +7,9 @@ image: /assets/images/thermoDiagram.jpeg
 ---
 
 For this thermodynamics project, we were tasked with analyzing a thermodynamic device in depth. I chose to analyze a heat exchanger presented in a thermodynamics lab. We were given the following set up:
-![System Diagram.]({{ "/assets/images/thermoDiagram.jpeg" | relative_url }})
+
+![System Diagram.]({{ "/assets/images/thermoDiagram.jpeg "System Diagram" | relative_url }})<br />
+
 
 The components of the system were
     -Hot reservoir
@@ -16,6 +18,28 @@ The components of the system were
     -Outlet 1
     -Outlet 2
 
+For the heat exhanger, there were four places for the tubing to connect to. Port 1 and port two are the two ends of one channel, and port 3 and port 4 share the other channel.
+
+To set up the reservoirs, we had to let the water in the hot reservoir heat up using a heater and put ice into the cold reservoir.
+
 My group decided to explore the differences between running the heat exhanger in parallel vs. running the heat exhanger in counterflow. 
-![Counterflow vs. parallel flow.]({{ "/assets/images/thermoParallelCounterflow.jpeg" | relative_url }})
+
+![Counterflow vs. Parallel Flow.]({{ "/assets/images/thermoParallelCounterflow.jpeg "Counterflow vs. Parallel Flow" | relative_url }})<br />
+
+To set up parallel flow, we connected the tubes from the reservoirs to ports one and four. For couterflow, we connected the tubes from the reservoirs to ports 1 and 3.
+
+To make it easier to differentiate the two liquids, one was colored red and the other was colored blue. The red liquid came from the hot reservoir, and the blue liquid came from the cold reservoir. Our data was as follows.
+
+Parallel
+    -Red liquid inlet: 40°C
+    -Red liquid outlet: 25.5°C
+    -Blue liquid inlet: 4.7°C
+    -Blue liquid outlet: 20.0°
+
+Counterflow
+    -Red liquid inlet: 40.1°C
+    -Red liquid outlet: 24.6°C
+    -Blue liquid inlet: 6.5°C
+    -Blue liquid outlet: 26.0°
+
 
