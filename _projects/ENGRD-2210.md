@@ -10,7 +10,7 @@ For this thermodynamics project, we were tasked with analyzing a thermodynamic d
 
 ![System Diagram]({{ "/assets/images/thermoDiagram.jpeg" | relative_url }})
 <br />
-
+babababa
 The components of the system were
     -Hot reservoir
     -Cold reservoir
