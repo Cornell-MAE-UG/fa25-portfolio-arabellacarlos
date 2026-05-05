@@ -5,7 +5,7 @@ description: MAE 2250
 technologies: []
 image: /assets/images/car.jpg
 ---
-
+# Exploratory Prototype
 Title and Team Name: Proposed Methods of Spotted Lantern Fly Removal by The Grape. <br />
 Client(s): Cornell CALS Extension / E&J Gallo Winery / National Grape <br />
 Problem Statement: The removal of adult SLF from grape plants could damage or otherwise contaminate the plants or harvested grapes. Methods requiring the discernment between SLF and grape plants increase the complexity of removal or deterrence methods. Additionally, methods with physical contact between a device and plant may damage the grapes or plants, kill the SLF while still on the plants, or expose the grapes to potentially toxic quassinoids from the SLF remains. Also, chemical pesticides are ineffective against SLF, and increasing pesticide strength poses potential risks to the grape plants.  <br /> <br />
@@ -41,3 +41,8 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC11285766/ <br />
 
 ![System Diagram]({{ "/assets/images/car.jpg" | relative_url }}) <br />
 Figure 1: Percentages of different SLF life stages that remained on a car until maximum speed was reached
+
+
+# First Prototype
+
+# Final Prototype
