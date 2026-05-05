@@ -5,9 +5,10 @@ description: MAE 2250
 technologies: []
 image: 
 ---
-[Exploratory Prototype](#exploratory-prototype)
-[First Prototype](#first-prototype)
-[Final Prototype](#final-prototype)
+# Table of Contents <br />
+[Exploratory Prototype](#exploratory-prototype) <br />
+[First Prototype](#first-prototype) <br />
+[Final Prototype](#final-prototype) <br />
 
 # Exploratory Prototype
 Title and Team Name: Proposed Methods of Spotted Lantern Fly Removal by The Grape. <br />
