@@ -5,7 +5,7 @@ description: MAE 2250
 technologies: []
 image: 
 ---
-[Exploratory Prototype]([#exploratory-prototype))
+[Exploratory Prototype]([#exploratory-prototype])
 [First Prototype](first-prototype)
 [Final Prototype](final-prototype)
 
