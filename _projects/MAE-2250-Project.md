@@ -3,8 +3,12 @@ layout: project
 title: 2250 Client Document
 description: MAE 2250
 technologies: []
-image: /assets/images/car.jpg
+image: 
 ---
+[Exploratory Prototype](exploratory-prototype)
+[First Prototype](first-prototype)
+[Final Prototype](final-prototype)
+
 # Exploratory Prototype
 Title and Team Name: Proposed Methods of Spotted Lantern Fly Removal by The Grape. <br />
 Client(s): Cornell CALS Extension / E&J Gallo Winery / National Grape <br />
