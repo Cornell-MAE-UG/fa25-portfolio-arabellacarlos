@@ -49,5 +49,34 @@ Figure 1: Percentages of different SLF life stages that remained on a car until 
 
 
 # First Prototype
+## Design Documentation
+### Component List
+Fan Blade: 3D printed in PLA from the RPL. CAD from McMaster-Carr part 17545K61
+(Aluminum Fan Blade for 3/16" Diameter Round Shaft, 2-1/2" Diameter, 10 Blades).
+Fan Shaft: 3D printed in PLA from RPL. 3/16” diameter, 7” long.
+Collection Box: Made from ⅛” thick wood cut in TDS and glued together using wood glue
+provided in TDS. 2” x 6” x 6”. Hinge door for easy removal of SLF and flange on back
+for mounting to tractor.
+Cone: 3D printed in PLA from the RPL. The funnel portion is 12” tall, 6” wide, and 2” deep. The
+tube portion on the back has an OD of 2”, an ID of ⅞”, and is ½” long.
+Crush Box and lid: 3D printed in PLA from the RPL. Box: 2.85” x 1.875” x 6”. Lid: 1.37” x
+1.88” x 6.20”.
+Tube: 3D printed in PLA from the RPL. 3 parts (nozzle and 2 modular shaft parts). Nozzle: 3.4”
+3.4” x 2.2”. Shaft Part: 3.40” x 3.40” x 0.8”.
+
+### CAD
+Isotropic View of CAD Model
+Vertical Cross Section View
+Top-down Cross Section View
+Diagram Showing Function
+### Assembly process
+Fan and Tube: Glue the two shaft portions of the tube together by carefully applying a small
+amount of superglue to the top of the raised outer ring of one part and placing the back of the
+other part on top, making sure that their walls align. Next, attach the fan to the shaft by sliding
+the shaft into the fan hole and applying a small amount of super glue. When both the shaft
+portion of the tube and the fan and fan shaft are dry, slide an M4 washer onto the shaft and slide
+the shaft into the small holes of the tube as shown in the above diagrams. Finally, attach the
+nozzle portion of the tube to the rest of the tube with a small amount of superglue.
+
 
 # Final Prototype
