@@ -5,7 +5,7 @@ description: MAE 2250
 technologies: []
 image: 
 ---
-[Exploratory Prototype](exploratory-prototype)
+[Exploratory Prototype]([exploratory-prototype](https://github.com/Cornell-MAE-UG/fa25-portfolio-arabellacarlos/blob/main/_projects/MAE-2250-Project.md#exploratory-prototype))
 [First Prototype](first-prototype)
 [Final Prototype](final-prototype)
 
