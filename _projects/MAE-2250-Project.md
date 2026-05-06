@@ -2,7 +2,7 @@
 layout: project
 title: 2250 Client Document
 description: MAE 2250
-technologies: []
+technologies: [Fusion 360]
 image: /assets/images/slf.png
 ---
 # Table of Contents <br />
