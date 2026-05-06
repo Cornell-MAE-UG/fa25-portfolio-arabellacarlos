@@ -178,7 +178,7 @@ Conclusion: The device is more than robust enough to be mounted with a full stor
 
 Nozzle Distance: Tested maximum distance device could be held from the model grapevine and still collect SLF by varying the distance at which the device was held away from the model vine. The device was tested without the cone and a ruler was used to measure the distance from the end of the nozzle to the model SLF. 
 Success Criteria: Can collect paper without contacting the grapevine.
-
+![Graph]({{ "/assets/images/2250Graph.png" | relative_url }}) <br />
 Results: Maximum: 2.5 cm, Minimum: 1.0 cm, Mean: 1.7185 cm, Median: 1.25 cm 
 Conclusion: Device in current state must be held extremely close to plants to work effectively, which likely suggests that the suction strength must be increased to ensure that the device will not make physical contact with the grape vines.
 
@@ -188,7 +188,8 @@ The first prototype featured a shallow rectangular cone, a crush box in between 
 The final prototype focused on improving the suction power through altering the geometry of the cone to feature a more circular design with a gradually increasing radius to create a linear airflow gradient. Additionally, to improve suction power, we replaced the propeller blade with an impeller blade with a casing attached to a motor. This was done to increase pressure differentials to increase suction power. Furthermore, to circumvent SLF or other debris getting caught in the blade and eliminate the added mass of a crushing or containment box, an aluminum mesh filter was added to direct objects through slits in the cone and mounting casing into a collection chamber. A custom mounting case was added allowing for easy addition of the device to a tractor or a harvester. The final prototype also features a charging system enabling device usage while charging, eliminating downtime between use. 
 
 ## Bill of Materials
-
+![BOM]({{ "/assets/images/2250BOM.png" | relative_url }}) <br />
+![BOMnote]({{ "/assets/images/2250BOMnote.png" | relative_url }}) <br />
 ## References
 References
 California Department of Food and Agriculture. “PDCP - PD/GWSS Board - Spotted Lanternfly.” CDFA,
