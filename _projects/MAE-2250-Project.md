@@ -65,9 +65,13 @@ Tube: 3D printed in PLA from the RPL. 3 parts (nozzle and 2 modular shaft parts)
 3.4” x 2.2”. Shaft Part: 3.40” x 3.40” x 0.8”.
 
 ### CAD
+![Isotropic View of CAD Model]({{ "/assets/images/2250overallCad1.png" | relative_url }}) <br />
 Isotropic View of CAD Model
+![Vertical Cross Section View]({{ "/assets/images/2250splitCad1.png" | relative_url }}) <br />
 Vertical Cross Section View
+![Top-down Cross Section View]({{ "/assets/images/2250splitCad2.png" | relative_url }}) <br />
 Top-down Cross Section View
+![Diagram Showing Function]({{ "/assets/images/2250functionality1.png" | relative_url }}) <br />
 Diagram Showing Function
 ### Assembly process
 Fan and Tube: Glue the two shaft portions of the tube together by carefully applying a small
@@ -77,9 +81,12 @@ the shaft into the fan hole and applying a small amount of super glue. When both
 portion of the tube and the fan and fan shaft are dry, slide an M4 washer onto the shaft and slide
 the shaft into the small holes of the tube as shown in the above diagrams. Finally, attach the
 nozzle portion of the tube to the rest of the tube with a small amount of superglue.
+![Assembly0]({{ "/assets/images/2250assembly0.png" | relative_url }}) <br />
 
 ### Structure
 Overall structure: Connect the collection box and the crusher box by applying a small amount of superglue around the lower edges of the crusher box and holding it on top of the collection box, ensuring the 2 side holes line up. Then, take the already-assembled fan and tube and put a ring of hot glue around the outer edge of the nozzle of the tube. Quickly place the tube into the back hole of the crushing box, making sure that the tube is not slanted and does not extend too far into the crushing box. Follow the same procedure but now with the back of the cone and the front of the crush box.
+![Assembly1]({{ "/assets/images/2250assembly1.png" | relative_url }}) <br />
+![Assembly2]({{ "/assets/images/2250assembly2.png" | relative_url }}) <br />
 
 ## Design Tests
 ### Fan Blade Durability
