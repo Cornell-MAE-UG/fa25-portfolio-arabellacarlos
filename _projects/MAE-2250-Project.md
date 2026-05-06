@@ -3,7 +3,7 @@ layout: project
 title: 2250 Client Document
 description: MAE 2250
 technologies: []
-image: 
+image: /assets/images/slf.png
 ---
 # Table of Contents <br />
 [Exploratory Prototype](#exploratory-prototype) <br />
